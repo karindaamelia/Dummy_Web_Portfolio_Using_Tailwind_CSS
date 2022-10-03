@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karinda Amelia - Final Project HTML & CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Passions+Conflict&family=Poppins:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
 
     <script>
         tailwind.config = {
@@ -19,6 +22,11 @@
                         light: '#fffbeb',
                         dark: 'rgb(15 23 42)'
                     },
+                    fontFamily:{
+                        nunito: "Nunito Sans",
+                        passions: "Passions Conflict",
+                        raleway: "Raleway"
+                    }
                 },   
             }
         }
@@ -26,13 +34,13 @@
 
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark font-nunito">
 
     <!-- Navbar Start -->
     <header>    
         <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-primary">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
-            <p class="text-3xl font-bold text-dark">Karinda Amelia</p>
+            <p class="text-6xl font-bold text-dark font-passions">Karinda Amelia</p>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +74,7 @@
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-5 m-auto lg:w-1/2 lg:pl-25">
                     <h2 class="text-2xl leading-tight font-bold text-light lg:text-5xl">Hello, I'm</h2>
-                    <h1 class="text-4xl font-bold leading-tight text-primary lg:text-7xl">Karinda Amelia</h1>
+                    <h1 class="text-4xl font-bold leading-tight text-primary lg:text-7xl font-raleway">Karinda Amelia</h1>
                     <p class="text-light font-normal leading-relaxed mb-4 lg:text-2xl">Informatics Engineering at Sriwijaya University.</p>
                     
                     <a href="#" class="text-base font-semibold text-light bg-primary px-4 py-2 rounded-lg hover:shadow-lg hover:bg-amber-400 lg:text-lg">Download CV</a>
